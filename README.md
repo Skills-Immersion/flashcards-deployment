@@ -8,9 +8,8 @@ The flashcards app is difficult to deploy because of the way its backend is set 
 
 ## Deploying the Backend
 
-1. Fork this repository.
 2. Go to [Render](https://render.com) and create a new Web Service.
-3. Connect the Web Service to your forked version of this repository.
+3. At the bottom of the page, under "Public Git repository", copy and paste the URL of this repo, then click "continue".
 4. On the resulting form, give your service a name like `flashcards-backend`. Change the "start command" to `npm start`, and change the instance type to free. Click the "Create Web Service" button and allow the site to deploy.
 5. Confirm that you can visit the `/decks` route on your deployment and see decks data.
 6. Note the URL at which you've deployed the backend for future use.
